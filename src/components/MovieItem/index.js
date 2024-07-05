@@ -26,6 +26,7 @@ const MovieItem = props => {
             <button
               className="close-button"
               type="button"
+              aria-label="Close"
               data-testid="closeButton"
               onClick={() => close()}
             >
